@@ -2,9 +2,13 @@
   "name": "users",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "author": "\"Camilo Guerrero\"",
   "license": "MIT",
   "dependencies": {
+    "mocha": "^3.3.0",
     "mongoose": "^4.9.9",
     "nodemon": "^1.11.0"
   }
