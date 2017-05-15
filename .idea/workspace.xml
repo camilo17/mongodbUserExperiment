@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e077d843-349c-4d96-9ace-2c59c7c7f7b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/delete_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/update_test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete_test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="delete_test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/delete_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+            <state relative-caret-position="1160">
+              <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/update_test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,6 +113,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/test/reading_test.js" />
         <option value="$PROJECT_DIR$/test/delete_test.js" />
+        <option value="$PROJECT_DIR$/test/update_test.js" />
       </list>
     </option>
   </component>
@@ -859,12 +870,12 @@
       <updated>1494763110854</updated>
       <workItem from="1494763112370" duration="8721000" />
       <workItem from="1494813834165" duration="3546000" />
-      <workItem from="1494846967447" duration="2303000" />
+      <workItem from="1494846967447" duration="4159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14570000" />
+    <option name="totallyTimeSpent" value="16426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="956" height="1056" extended-state="4" />
@@ -1126,8 +1137,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/delete_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+        <state relative-caret-position="1160">
+          <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/update_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
