@@ -35,7 +35,25 @@ describe('Associations', () => {
                 assert(user.blogPost[0].title === 'JS is great');
                 done();
             })
-    })
+    });
+
+    it('saves a full relation graph', (done) => {
+       User.findOne({name: 'Joe'})
+           .populate({
+               path: 'blogPosts',           // load up blogPosts
+               populate: {
+                   path: 'comments',        //what to load in blogPosts
+                   model: 'comment',
+                   populate: {              //populate association
+                       path: 'user',
+                       model: 'user'
+                   }
+               }
+           })
+           .then((user) => {
+
+           })
+    });
 
 
 
