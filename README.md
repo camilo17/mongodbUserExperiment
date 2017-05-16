@@ -1,1 +1,1 @@
-#MongoDB Simple Application
+#MongoDB Sample/Practice Application
