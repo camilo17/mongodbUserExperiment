@@ -23,7 +23,8 @@ describe('Subdocuments', () => {
     it('Can add subdocuments to an existng record', (done) => {
         const joe = new User({
             name: 'Joe',
-            posts: []});
+            posts: []
+        });
 
         joe.save()
             .then(() => User.findOne({name: 'Joe'}))
@@ -40,5 +41,27 @@ describe('Subdocuments', () => {
 
 
 
+    });
+
+
+    it('can remove an existing subdocument', (done) => {
+        const joe = new User({
+            name: 'Joe',
+            posts: [{title: 'New Title'}]
+        });
+
+        joe.save()
+            .then(() => User.findOne({name: 'Joe'}))
+            .then((user) => {
+                user.posts[0].remove();
+                return user.save();
+            })
+            .then(() => User.findOne({name: 'Joe'}))
+            .then((user) => {
+                assert(user.posts.length === 0);
+                done();
+            })
     })
+
+
 });
