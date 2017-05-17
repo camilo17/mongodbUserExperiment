@@ -51,7 +51,10 @@ describe('Associations', () => {
                }
            })
            .then((user) => {
+                assert(user.name === 'Joe');
+                assert(user.blogPost[0].title === 'JS is great');
 
+                done();
            })
     });
 
